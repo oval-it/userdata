@@ -17,7 +17,7 @@ mkdir -p ~/.config
 cp -r settings/micro ~/.config/micro
 sudo mkdir -p ~root/.config
 sudo cp -r settings/micro ~root/.config/micro
-sudo chown -R root:root ~/root/.config/micro
+sudo chown -R root:root ~root/.config/micro
 
 # Cleanup
 rm -r "micro-$MICRO_VERSION" "micro-$MICRO_VERSION-$MICRO_OS.tar.gz"
