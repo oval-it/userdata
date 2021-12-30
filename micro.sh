@@ -21,6 +21,6 @@ sudo chown -R root:root ~root/.config/micro
 
 # Cleanup
 rm -r "micro-$MICRO_VERSION" "micro-$MICRO_VERSION-$MICRO_OS.tar.gz"
-rm -r settings
+rm -rf settings
 
 echo "Done!"
